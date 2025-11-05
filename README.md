@@ -6,12 +6,29 @@ Specifically, we perform inverse analysis to propose microstructures and process
 This inverse analysis has the potential to reduce the costs associated with trial-and-error experimentation and simulation in materials development, and contribute to greater efficiency.
 In this case, we propose a model that suggests the microstructure and processing temperature to achieve the desired elastic modulus for thermoplastic resins as an example. However, it can be easily applied to other materials, material properties, and process parameters by replacing the dataset. Furthermore, it can be easily extended to handle multiple process parameters.
 
-## File discreption
+## File discription
 ```training.ipynb``` : The code for performing training. Save the trained model.
 
 ```modelload.ipynb``` : Load the saved model and perform generation.
 
 ```modules.py``` : This program includes models such as U-Net. Import this file when running ```training.ipynb``` or ```modelload.ipynb```.
+
+## Datasets discription
+This program uses a dataset located in the ```train_val_test``` directory.
+The dataset consists of microstructure images and their corresponding elastic properties.
+
+- The microstructure images were generated using the phase-field method, then compressed for model training.
+
+- The elastic properties were computed using the XFEM-based computational micromechanics approach.
+
+The methodologies used to generate these datasets are based on the following research works.
+
+- Higuchi, R. et al. Multiphysics simulation of cooling-rate-dependent material properties of thermoplastic composites. Proc. 20th European Conference on Composite Materials (ECCM20) (2022).
+- Takashima, R., Higuchi, R., Oshima, S., Yokozeki, T. & Aoki, T. Prediction of mechanical properties of thermoplastic resins considering molding conditions. Proc. 21st European Conference on Composite Materials (ECCM21) (2024).
+- Higuchi, R., Okabe, T. & Nagashima, T. Numerical simulation of progressive damage and failure in composite laminates using XFEM/CZM coupled approach. Composites Part A: Applied Science and Manufacturing, 95, 197–207 (2017).
+[https://doi.org/10.1016/j.compositesa.2016.12.026](https://doi.org/10.1016/j.compositesa.2016.12.026)
+- Higuchi, R., Yokozeki, T., Nagashima, T. & Aoki, T. Evaluation of mechanical properties of noncircular carbon fiber reinforced plastics by using XFEM-based computational micromechanics. Composites Part A: Applied Science and Manufacturing, 126, 105556 (2019).
+[https://doi.org/10.1016/j.compositesa.2019.105556](https://doi.org/10.1016/j.compositesa.2019.105556)
 
 ## Usage
 First, clone this repository to your local machine.
