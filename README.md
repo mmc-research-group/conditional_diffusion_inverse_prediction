@@ -7,9 +7,11 @@ This inverse analysis has the potential to reduce the costs associated with tria
 In this case, we propose a model that suggests the microstructure and processing temperature to achieve the desired elastic modulus for thermoplastic resins as an example. However, it can be easily applied to other materials, material properties, and process parameters by replacing the dataset. Furthermore, it can be easily extended to handle multiple process parameters.
 
 ## File discreption
-```training.ipynb``` : 
-```modelload.ipynb``` : 
-```modules.py``` : 
+```training.ipynb``` : The code for performing training. Save the trained model.
+
+```modelload.ipynb``` : Load the saved model and perform generation.
+
+```modules.py``` : This program includes models such as U-Net. Import this file when running ```training.ipynb``` or ```modelload.ipynb```.
 
 ## Usage
 First, clone this repository to your local machine.
