@@ -29,12 +29,10 @@ Higuchi, R. et al. Multiphysics simulation of cooling-rate-dependent material pr
 Takashima, R., Higuchi, R., Oshima, S., Yokozeki, T. & Aoki, T. Prediction of mechanical properties of thermoplastic resins considering molding conditions. Proc. 21st European Conference on Composite Materials (ECCM21) (2024).
 ```
 ```
-Higuchi, R., Okabe, T. & Nagashima, T. Numerical simulation of progressive damage and failure in composite laminates using XFEM/CZM coupled approach. Composites Part A: Applied Science and Manufacturing, 95, 197–207 (2017).
-(https://doi.org/10.1016/j.compositesa.2016.12.026)
+Higuchi, R., Okabe, T. & Nagashima, T. Numerical simulation of progressive damage and failure in composite laminates using XFEM/CZM coupled approach. Composites Part A: Applied Science and Manufacturing, 95, 197–207 (2017). https://doi.org/10.1016/j.compositesa.2016.12.026.
 ```
 ```
-Higuchi, R., Yokozeki, T., Nagashima, T. & Aoki, T. Evaluation of mechanical properties of noncircular carbon fiber reinforced plastics by using XFEM-based computational micromechanics. Composites Part A: Applied Science and Manufacturing, 126, 105556 (2019).
-(https://doi.org/10.1016/j.compositesa.2019.105556)
+Higuchi, R., Yokozeki, T., Nagashima, T. & Aoki, T. Evaluation of mechanical properties of noncircular carbon fiber reinforced plastics by using XFEM-based computational micromechanics. Composites Part A: Applied Science and Manufacturing, 126, 105556 (2019). https://doi.org/10.1016/j.compositesa.2019.105556.
 ```
 
 ## Usage
@@ -63,12 +61,10 @@ In Bibtex format
 ## References & Acknowledgements
 Our implementation builds upon and acknowledges the following open-source project and foundational research:
 ```
-Diffusion Models in PyTorch by dome272 and tcapelle.
-(https://github.com/tcapelle/Diffusion-Models-pytorch)
+Diffusion Models in PyTorch by dome272 and tcapelle. https://github.com/tcapelle/Diffusion-Models-pytorch.
 ```
 ```
-Ho, J., Jain, A., & Abbeel, P. (2020). Denoising Diffusion Probabilistic Models. arXiv:2006.11239.
-(https://doi.org/10.48550/arXiv.2006.11239)
+Ho, J., Jain, A., & Abbeel, P. (2020). Denoising Diffusion Probabilistic Models. arXiv:2006.11239. https://doi.org/10.48550/arXiv.2006.11239.
 ```
 
 ## Lisence
