@@ -59,9 +59,7 @@ In Bibtex format
 
 ## References & Acknowledgements
 Our implementation builds upon and acknowledges the following open-source project and foundational research:
-```
-Diffusion Models in PyTorch by dome272 and tcapelle. https://github.com/tcapelle/Diffusion-Models-pytorch.
-```
+- Diffusion Models in PyTorch by dome272 and tcapelle. https://github.com/tcapelle/Diffusion-Models-pytorch.
 ```
 Ho, J., Jain, A., & Abbeel, P. (2020). Denoising Diffusion Probabilistic Models. arXiv:2006.11239. https://doi.org/10.48550/arXiv.2006.11239.
 ```
