@@ -63,14 +63,15 @@ In Bibtex format
 
 ## References & Acknowledgements
 Our implementation builds upon and acknowledges the following open-source project and foundational research:
-- Diffusion Models in PyTorch by dome272 and tcapelle. https://github.com/tcapelle/Diffusion-Models-pytorch.
+- [Diffusion Models in PyTorch](https://github.com/tcapelle/Diffusion-Models-pytorch) 
+  by dome272 and tcapelle
 ```
 Ho, J., Jain, A., & Abbeel, P. (2020). Denoising Diffusion Probabilistic Models. arXiv:2006.11239. https://doi.org/10.48550/arXiv.2006.11239.
 ```
 The original work is licensed under the Apache License, Version 2.0.
 
-## Lisence
-Copyright (c) 2025 MMC Research Group 
+## Licence
+Copyright © 2025 MMC Research Group
 
 Licensed under the Apache License, Version 2.0.
 See the [LICENSE](LICENSE) file for details.
