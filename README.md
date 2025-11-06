@@ -23,16 +23,16 @@ The dataset consists of microstructure images (.vtk) and their corresponding ela
 
 The methodologies used to generate these datasets are based on the following research works:
 ```
-Higuchi, R. et al. Multiphysics simulation of cooling-rate-dependent material properties of thermoplastic composites. Proc. 20th European Conference on Composite Materials (ECCM20) (2022).
+Higuchi, R. et al. (2022). Multiphysics simulation of cooling-rate-dependent material properties of thermoplastic composites. Proc. 20th European Conference on Composite Materials (ECCM20).
 ```
 ```
-Takashima, R., Higuchi, R., Oshima, S., Yokozeki, T. & Aoki, T. Prediction of mechanical properties of thermoplastic resins considering molding conditions. Proc. 21st European Conference on Composite Materials (ECCM21) (2024).
+Takashima, R., Higuchi, R., Oshima, S., Yokozeki, T. & Aoki, T. (2024). Prediction of mechanical properties of thermoplastic resins considering molding conditions. Proc. 21st European Conference on Composite Materials (ECCM21).
 ```
 ```
-Higuchi, R., Okabe, T. & Nagashima, T. Numerical simulation of progressive damage and failure in composite laminates using XFEM/CZM coupled approach. Composites Part A: Applied Science and Manufacturing, 95, 197–207. https://doi.org/10.1016/j.compositesa.2016.12.026 (2017).
+Higuchi, R., Okabe, T. & Nagashima, T. (2017). Numerical simulation of progressive damage and failure in composite laminates using XFEM/CZM coupled approach. Composites Part A: Applied Science and Manufacturing, 95, 197–207. https://doi.org/10.1016/j.compositesa.2016.12.026.
 ```
 ```
-Higuchi, R., Yokozeki, T., Nagashima, T. & Aoki, T. Evaluation of mechanical properties of noncircular carbon fiber reinforced plastics by using XFEM-based computational micromechanics. Composites Part A: Applied Science and Manufacturing, 126, 105556. https://doi.org/10.1016/j.compositesa.2019.105556 (2019).
+Higuchi, R., Yokozeki, T., Nagashima, T. & Aoki, T. (2019) Evaluation of mechanical properties of noncircular carbon fiber reinforced plastics by using XFEM-based computational micromechanics. Composites Part A: Applied Science and Manufacturing, 126, 105556. https://doi.org/10.1016/j.compositesa.2019.105556.
 ```
 
 ## Usage
@@ -44,16 +44,20 @@ git clone https://github.com/mmc-research-group/conditional_diffusion_inverse_pr
 ## Citation
 If you use this repository, please cite:
 ```
-Ikeda, A., Higuchi, R., Yokozeki, T., Endo, K., Kojima, Y., Suzuki, M., & Muramatsu, M. Conditional diffusion model for inverse prediction of process parameters and dendritic microstructures from mechanical properties. Scientific Reports, 15(1), 37147. https://doi.org/10.1038/s41598-025-22942-y (2019).
+IIkeda, A., Higuchi, R., Yokozeki, T., Endo, K., Kojima, Y., Suzuki, M., & Muramatsu, M. (2025). Conditional diffusion model for inverse prediction of process parameters and dendritic microstructures from mechanical properties. Scientific Reports, 15(1), 37147. https://doi.org/10.1038/s41598-025-22942-y.
 ```
 
 In Bibtex format
 ```
-@article{ikeda2025conditionaldiffusionmodelinverse,
+@article{ikeda2025conditional,
   title={Conditional diffusion model for inverse prediction of process parameters and dendritic microstructures from mechanical properties},
   author={Ikeda, Arisa and Higuchi, Ryo and Yokozeki, Tomohiro and Endo, Katsuhiro and Kojima, Yuta and Suzuki, Misato and Muramatsu, Mayu},
-  journal={arXiv preprint arXiv:2410.20822},
-  year={2025}
+  journal={Scientific Reports},
+  volume={15},
+  number={1},
+  pages={37147},
+  year={2025},
+  publisher={Nature Publishing Group UK London}
 }
 ```
 
