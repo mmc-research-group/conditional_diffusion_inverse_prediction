@@ -15,7 +15,7 @@ In this case, we propose a model that suggests the microstructure and processing
 
 ## Datasets discription
 This program uses a dataset located in the ```train_val_test``` directory.
-The dataset consists of microstructure images and their corresponding elastic properties.
+The dataset consists of microstructure images (.vtk) and their corresponding elastic properties (.out).
 
 - The microstructure images were generated using the phase-field method, then compressed for model training.
 
