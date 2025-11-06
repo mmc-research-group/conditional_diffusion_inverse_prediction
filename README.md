@@ -44,7 +44,7 @@ git clone https://github.com/mmc-research-group/conditional_diffusion_inverse_pr
 ## Citation
 If you use this repository, please cite:
 ```
-IIkeda, A., Higuchi, R., Yokozeki, T., Endo, K., Kojima, Y., Suzuki, M., & Muramatsu, M. (2025). Conditional diffusion model for inverse prediction of process parameters and dendritic microstructures from mechanical properties. Scientific Reports, 15(1), 37147. https://doi.org/10.1038/s41598-025-22942-y.
+Ikeda, A., Higuchi, R., Yokozeki, T., Endo, K., Kojima, Y., Suzuki, M., & Muramatsu, M. (2025). Conditional diffusion model for inverse prediction of process parameters and dendritic microstructures from mechanical properties. Scientific Reports, 15(1), 37147. https://doi.org/10.1038/s41598-025-22942-y.
 ```
 
 In Bibtex format
