@@ -6,14 +6,14 @@ Specifically, we perform inverse analysis to propose microstructures and process
 This inverse analysis has the potential to reduce the costs associated with trial-and-error experimentation and simulation in materials development, and contribute to greater efficiency.
 In this case, we propose a model that suggests the microstructure and processing temperature to achieve the desired elastic modulus for thermoplastic resins as an example. However, it can be easily applied to other materials, material properties, and process parameters by replacing the dataset. Furthermore, it can be easily extended to handle multiple process parameters.
 
-## File discription
+## File description
 ```training.ipynb``` : The code for performing training. Save the trained model.
 
 ```modelload.ipynb``` : Load the saved model and perform generation.
 
 ```modules.py``` : This program includes models such as U-Net. Import this file when running ```training.ipynb``` or ```modelload.ipynb```.
 
-## Datasets discription
+## Datasets description
 This program uses a dataset located in the ```train_val_test``` directory.
 The dataset consists of microstructure images (.vtk) and their corresponding elastic properties (.out).
 
@@ -67,6 +67,7 @@ Our implementation builds upon and acknowledges the following open-source projec
 ```
 Ho, J., Jain, A., & Abbeel, P. (2020). Denoising Diffusion Probabilistic Models. arXiv:2006.11239. https://doi.org/10.48550/arXiv.2006.11239.
 ```
+The original work is licensed under the Apache License, Version 2.0.
 
 ## Lisence
 This project is licensed under the Apache License 2.0 - see the [LICENSE.txt](LICENSE.txt) file for details.  
