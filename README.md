@@ -70,6 +70,7 @@ Ho, J., Jain, A., & Abbeel, P. (2020). Denoising Diffusion Probabilistic Models.
 The original work is licensed under the Apache License, Version 2.0.
 
 ## Lisence
-Copyright (c) 2025
+Copyright (c) 2025 MMC Research Group 
+
 Licensed under the Apache License, Version 2.0.
 See the [LICENSE](LICENSE.txt) file for details.
