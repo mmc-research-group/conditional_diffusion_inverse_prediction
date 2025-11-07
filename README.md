@@ -1,5 +1,4 @@
 # conditional_diffusion_inverse_prediction
-[![python](https://img.shields.io/badge/python-v3.9.17-blue)](https://www.python.org/downloads/release/python-3917/)
 
 This repository contains the code for a conditional diffusion model used to perform inverse analysis in the materials field.
 Specifically, we perform inverse analysis to propose microstructures and process parameters that satisfy the desired material properties.
@@ -34,6 +33,13 @@ Higuchi, R., Okabe, T. & Nagashima, T. (2017). Numerical simulation of progressi
 ```
 Higuchi, R., Yokozeki, T., Nagashima, T. & Aoki, T. (2019) Evaluation of mechanical properties of noncircular carbon fiber reinforced plastics by using XFEM-based computational micromechanics. Composites Part A: Applied Science and Manufacturing, 126, 105556. https://doi.org/10.1016/j.compositesa.2019.105556.
 ```
+
+## Requirements
+- Python 3.9.x (tested)
+- PyTorch 2.1.0 (tested)
+- torchvision
+- numpy
+- matplotlib
 
 ## Usage
 First, clone this repository to your local machine.
