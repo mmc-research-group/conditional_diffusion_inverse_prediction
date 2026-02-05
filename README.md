@@ -38,12 +38,12 @@ Higuchi, R., Yokozeki, T., Nagashima, T. & Aoki, T. (2019) Evaluation of mechani
 The dataset included in this repository is provided as an example for demonstration purposes.
 The results reported in the related scientific publication [(SciRep 2025)](https://doi.org/10.1038/s41598-025-22942-y) were obtained using a larger dataset than the one included here.
 
-## Requirements
-- Python 3.9.x (tested)
-- PyTorch 2.1.0 (tested)
-- torchvision
-- numpy
-- matplotlib
+## Versoins (tested)
+- Python 3.9.19 
+- PyTorch 2.1.0
+- Torchvision
+- NumPy
+- Matplotlib
 
 ## Usage
 First, clone this repository to your local machine.
