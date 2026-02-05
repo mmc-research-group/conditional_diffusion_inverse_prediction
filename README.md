@@ -41,9 +41,10 @@ The results reported in the related scientific publication [(SciRep 2025)](https
 ## Versoins (tested)
 - Python 3.9.19 
 - PyTorch 2.1.0
-- Torchvision
-- NumPy
-- Matplotlib
+- Torchvision 0.16.0
+- NumPy 1.26.0
+- Matplotlib 3.7.2
+- CUDA 12.4 
 
 ## Usage
 First, clone this repository to your local machine.
